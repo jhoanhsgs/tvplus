@@ -1,0 +1,53 @@
+
+body{
+	background: url("https://cdn.pixabay.com/photo/2016/03/07/00/00/cinema-1241422_1280.jpg");
+	background-repeat: no-repeat;
+	background-size: 100vw 100vh;
+	z-index: -3;
+	background-attachment: fixed;
+}
+@font-face {
+	font-family: 'Penster Rough Demo';
+	src: url('../font/Penster Rough Demo.otf');
+}
+.titulo1{
+	font-family: 'Penster Rough Demo';
+	color: #ffffff;
+	font-size: 100px;
+	text-shadow: 0.1em 0.1em 0.2em black;
+}
+.btn-facebook{
+	background-color:#0a58ca;
+	color: white;
+	border-radius: 50%;
+}
+.btn-facebook:hover{
+	background-color: white;
+	color: #0a58ca;
+}
+.btn-whatsapp{
+	background-color:#1cb478;
+	color: white;
+	border-radius: 50%;
+}
+.btn-whatsapp:hover{
+	background-color: white;
+	color: #1cb478;
+}
+.slider {
+	width: 90%;
+	margin: 100px auto;
+}
+
+.slick-slide {
+	margin: 0px 20px;
+}
+
+.slick-slide img {
+	width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+	color: black;
+}
